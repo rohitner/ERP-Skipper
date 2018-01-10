@@ -1,2 +1,6 @@
 # ERP-Skipper
-get rid of the annoying form after logging in to ERP
+chrome extension to get rid of the annoying form after logging in to ERP
+
+### Install
+
+go to the extensions tab and check the developer mode, clone this repo and load it as unpacked extension
