@@ -4,29 +4,20 @@
     "description": "Skip the annoying form.",
     "version": "1.0",
     "permissions": ["tabs", "<all_urls>"],
-
-    "browser_action": {
-		"default_icon": {
-			"19": "images/icons/19.png",
-			"38": "images/icons/38.png"
-		},
-        "default_popup": "popup.html"
-    },
-
+    "converted_from_user_script": true,
     "content_scripts": [
-	  {
-	    "matches": [
-	       "https://erp.iitkgp.ernet.in/*"
-	    ],
-	    "js": ["jquery.min.js","content_script.js"]
-	  }
-	],
-
-	"icons": {
-		"16": "images/icons/16.png",
-		"19": "images/icons/19.png",
-		"38": "images/icons/38.png",
-		"64": "images/icons/64.png",
-		"128": "images/icons/128.png"
-	}
+      {
+        "matches": [
+  	       "https://erp.iitkgp.ernet.in/*"
+  	    ],
+  	    "js": ["content_script.js"]
+      }
+    ],
+  	"icons": {
+  		"16": "images/icons/16.png",
+  		"19": "images/icons/19.png",
+  		"38": "images/icons/38.png",
+  		"64": "images/icons/64.png",
+  		"128": "images/icons/128.png"
+  	}
 }
