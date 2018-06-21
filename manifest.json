@@ -8,7 +8,7 @@
     "content_scripts": [
       {
         "matches": [
-  	       "https://erp.iitkgp.ernet.in/*"
+  	       "https://erp.iitkgp.ac.in/*"
   	    ],
   	    "js": ["content_script.js"]
       }
